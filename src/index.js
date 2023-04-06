@@ -32,9 +32,6 @@ for (let destination of destinations) {
   });
 }
 
-const links = document.querySelector("nav");
-links.children[1].href = "https://google.com";
-
 window.addEventListener("load", (evt) => {
   console.log(`hello, you are using ${evt.type}`);
 });
@@ -57,4 +54,3 @@ function reportWindowSize() {
   heightOutput.textContent = window.innerHeight;
   widthOutput.textContent = window.innerWidth;
 }
-
